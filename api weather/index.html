@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+<main class="mx-auto my-5  ">
+<form class="position-relative py-5 w-75 mx-auto form" >
+    <input id="search" class="form-control" type="text" placeholder="enter your city">
+    <i id="icon1" class="fa-solid fa-eye fa-2xl icon"></i>
+   
+    
+    <div id="error" class="text-center text-danger" style="display: none;" >
+    <p>write a city name</p>
+    </div>
+    
+</form>
+<div id="main" class="w-100" style="display: none;">
+    <div class="margin  ">
+        <img id="weathericon" src="images/logo@2x.png" class="mb-4" alt="">
+    </div>
+    <div class="text-white w-50 mx-auto pb-4 ">
+        <h2 id="temp" class="fs-1 fw-bolder">25.2<sup>0</sup>c<!--  -->
+        </h2>
+        <h2 id="namecity" class="fs-1 fw-bolder"> new york</h2>
+    </div>
+    <div class="item d-flex justify-content-around">
+        <div class="d-flex p-4 ">
+    <div>
+        <img class="w-100 object-fit-contain my-4" src="images/icon-umberella@2x.png" alt="">
+    </div>
+       <div>
+        <h2 id="humidity" >
+        </h2>
+        <h4>humidity</h4>
+       </div>
+        </div>
+        <div class="d-flex p-4 ">
+            <img class="w-25 object-fit-contain" src="images/icon-compass@2x.png" alt="">
+           <div> <h2 id="speed"></h2>
+           <h4>wind speed</h4>
+        </div>
+        </div>
+    </div>
+</div>
+</main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index2.js"></script>
+</body>
+
+</html>

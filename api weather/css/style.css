@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.799)!important;
+  
+}
+main{
+
+background-color: rgba(0, 255, 255, 0.342);
+width: 40%;
+border-radius: 50px;
+}
+.icon{
+    position: absolute;
+    left: 91%;
+    bottom: 57%;
+    cursor: pointer;
+}
+.form input{
+border-radius: 30px;
+margin-bottom: 5%;
+}
+.margin{
+    margin-left: 32%;
+
+}
+.item{
+    background-color: rgba(222, 135, 176, 0.504);
+}
